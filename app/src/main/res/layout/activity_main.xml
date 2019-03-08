@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:id="@+id/sou"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:hint="请输入搜索内容"
+        />
+    <Button
+        android:id="@+id/tiao"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="→"
+        />
+
+</LinearLayout>
+
+        <Button
+            android:id="@+id/qing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="清除历史记录"
+            android:layout_marginTop="200dp"
+            />
+
+
+
+</LinearLayout>
